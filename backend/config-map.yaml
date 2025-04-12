@@ -5,3 +5,5 @@ metadata:
   namespace: expense
 data:
   DB_HOST: mysql-dev.learningmaniac.fun
+
+  #configmap
