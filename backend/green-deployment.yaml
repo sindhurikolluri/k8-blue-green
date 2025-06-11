@@ -27,7 +27,7 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: learn25/backend:2.0.0
+        image: joindevops/backend:2.0.0
         envFrom:
         - configMapRef:
             name: backend
