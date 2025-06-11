@@ -27,7 +27,7 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: joindevops/backend:1.0.0
+        image: joindevops/backend:3.0.0
         envFrom:
         - configMapRef:
             name: backend
